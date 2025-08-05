@@ -1,7 +1,8 @@
 [package]
+edition     = "2024"
 name        = "wavefile"
-version     = "0.2.0"
-authors     = ["John Ledbetter <john@throttle.io>"]
+version     = "0.3.0"
+authors     = ["John Ledbetter <john@weirdhorse.party>"]
 description = "Simple wavefile parser."
 keywords    = ["wav", "wavefile", "wavfile"]
 license     = "MIT"
@@ -10,5 +11,5 @@ homepage    = "https://github.com/ledbettj/wavefile.git"
 exclude     = [ "fixtures/*" ]
 
 [dependencies]
-byteorder = "1.0"
-memmap    = "0.5"
+byteorder = "1.5.0"
+memmap    = "0.7.0"
